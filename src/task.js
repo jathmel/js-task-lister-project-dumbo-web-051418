@@ -1,3 +1,6 @@
 class Task {
-  // your code here
+  constructor(description, priority){
+    this.description = description;
+    this.priority = priority;
+  }
 }
